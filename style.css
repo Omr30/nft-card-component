@@ -1,0 +1,115 @@
+* {
+    font-family: 'Outfit', sans-serif;
+}
+
+html {
+    background-color: hsl(217, 54%, 11%);
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 15rem;
+    width: 100%;
+    height: 100%;
+}
+
+.main {
+    font-size: 18px;
+    background-color: hsl(216, 50%, 16%);
+    width: 20.5rem;
+    /* height: 40rem; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 1rem;
+}
+
+.main img {
+    width: 17rem;
+    margin-top: 1.5rem;
+    border-radius: 0.5rem;
+}
+
+.main h3 {
+    color: hsl(0, 0%, 100%);
+    text-align: left;
+    width: 17rem;
+}
+
+.desc {
+    color: hsl(215, 51%, 70%);
+    font-size: 17px;
+    margin: 0;
+}
+
+.values {
+    width: 18rem;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 10px 0;
+}
+
+.left {
+    color: hsl(178, 100%, 50%);
+    margin: 0;
+}
+
+.left img {
+    width: 0.6rem;
+}
+
+.right {
+    color: hsl(215, 51%, 70%);
+    padding: 0.2rem 0 0 0;
+    margin: 0;
+}
+
+.right img {
+    width: 0.8rem;
+}
+
+hr {
+    background-color: hsl(215, 32%, 27%);
+    height: 0.5px;
+    border: none;
+    width: 18rem;
+}
+
+.credits {
+    width: 20rem;
+    display: flex;
+    justify-content: flex-start;
+    margin: 10px 0 2rem 35px;
+    font-size: 16px;
+}
+
+.credits img {
+    width: 2rem;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin: 0 0 0 0;
+}
+
+.credits p {
+    color: hsl(0, 0%, 100%);
+    margin: 5px 0 0 10px;
+}
+
+.credits p span{
+    color: hsl(215, 51%, 70%)
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
