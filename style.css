@@ -20,23 +20,31 @@ html {
     font-size: 18px;
     background-color: hsl(216, 50%, 16%);
     width: 20.5rem;
-    /* height: 40rem; */
     display: flex;
     flex-direction: column;
     align-items: center;
     border-radius: 1rem;
 }
 
-.main img {
+.main-img {
     width: 17rem;
     margin-top: 1.5rem;
     border-radius: 0.5rem;
+}
+
+.main-img:hover {
+    cursor: pointer;
 }
 
 .main h3 {
     color: hsl(0, 0%, 100%);
     text-align: left;
     width: 17rem;
+}
+
+.main h3:hover {
+    cursor: pointer;
+    color: hsl(178, 100%, 50%);
 }
 
 .desc {
@@ -53,7 +61,7 @@ html {
 }
 
 .left {
-    color: hsl(178, 100%, 50%);
+    color: #00fff7;
     margin: 0;
 }
 
@@ -96,6 +104,11 @@ hr {
 .credits p {
     color: hsl(0, 0%, 100%);
     margin: 5px 0 0 10px;
+}
+
+.credits p:hover {
+    cursor: pointer;
+    color: hsl(178, 100%, 50%);
 }
 
 .credits p span{
